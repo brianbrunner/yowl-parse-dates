@@ -1,0 +1,38 @@
+{
+  "name": "yowl-parse-dates",
+  "version": "0.1.0",
+  "description": "Extract times and dates from chat messages. Powered by chrono-node.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "jshint lib/*.js lib/**/*.js",
+    "test": "mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianbrunner/yowl-parse-dates.git"
+  },
+  "keywords": [
+    "chatbot"
+  ],
+  "author": "brian.brunner@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brianbrunner/yowl-parse-dates/issues"
+  },
+  "dependencies": {
+    "chrono-node": "^1.3.5"
+  },
+  "devDependencies": {
+    "jshint": "latest",
+    "browserify": "latest",
+    "mocha": "latest"
+  },
+  "jshintConfig": {
+    "node": true,
+    "proto": true
+  },
+  "homepage": "https://github.com/brianbrunner/yowl-parse-dates#readme"
+}
